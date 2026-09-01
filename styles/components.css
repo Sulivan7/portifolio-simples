@@ -1,0 +1,22 @@
+.social-button {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  text-decoration: none;
+
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  font-family: var(--ff-maven);
+  transition: color 0.2s;
+
+  span {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+}
+
+.social-button:hover {
+  color: var(--blue);
+}
