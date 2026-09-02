@@ -1,0 +1,54 @@
+#hero {
+  background-image: url(../assets/images/Background_intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+
+  .info {
+    .avatar {
+      margin-bottom: 56px;
+    }
+
+    .description {
+      .greeting {
+        font: var(--subtitle);
+        color: var(--gray-200);
+        margin-bottom: 8px;
+      }
+
+      span {
+        color: var(--red);
+      }
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font: var(--title-lg);
+      color: var(--gray-100);
+    }
+
+    .bio {
+      max-width: 680px;
+      margin-inline: auto;
+      font: var(--text-sm);
+      color: var(--gray-300);
+    }
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 80px;
+  }
+
+  .arrow {
+    margin: 94px 0 56px auto;
+  }
+}
