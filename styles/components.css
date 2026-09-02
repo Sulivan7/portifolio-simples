@@ -1,7 +1,7 @@
 .social-button {
-  padding: 20px;
   display: flex;
   justify-content: space-between;
+  padding: 20px;
   border-radius: 8px;
   text-decoration: none;
 
@@ -19,4 +19,38 @@
 
 .social-button:hover {
   color: var(--blue);
+}
+
+.project-card {
+  padding: 12px;
+  background-color: var(--gray-400);
+  border: 2px solid var(--gray-400);
+  border-radius: 12px;
+  transition: 0.2s;
+
+  img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    h3 {
+      color: var(--gray-100);
+      font: var(--title-sm);
+    }
+    p {
+      color: var(--gray-200);
+      font: var(--text-sm);
+      margin-bottom: 6px;
+    }
+  }
+}
+
+.project-card:hover {
+  border: 2px solid var(--gray-300);
 }
