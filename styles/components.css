@@ -54,3 +54,14 @@
 .project-card:hover {
   border: 2px solid var(--gray-300);
 }
+
+.tag {
+  display: flex;
+  border-radius: 24px;
+  gap: 8px;
+  padding: 12px;
+
+  background-color: var(--gray-400);
+  color: var(--gray-100);
+  font: var(--text-md);
+}
