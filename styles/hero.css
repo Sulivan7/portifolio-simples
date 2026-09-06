@@ -1,12 +1,13 @@
 #hero {
   background-image: url(../assets/images/Background_intro.png);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   text-align: center;
 
   .info {
@@ -21,34 +22,30 @@
         margin-bottom: 8px;
       }
 
-      span {
-        color: var(--red);
+      h1 {
+        font: var(--title-lg);
+        color: var(--gray-100);
+        margin-bottom: 20px;
+      }
+
+      .bio {
+        font: var(--text-sm);
+        color: var(--gray-300);
+        max-width: 680px;
+        margin-inline: auto;
       }
     }
 
-    h1 {
-      margin-bottom: 20px;
-      font: var(--title-lg);
-      color: var(--gray-100);
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+      margin-top: 80px;
     }
-
-    .bio {
-      max-width: 680px;
-      margin-inline: auto;
-      font: var(--text-sm);
-      color: var(--gray-300);
-    }
-  }
-
-  .tags {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 16px;
-    margin-top: 80px;
   }
 
   .arrow {
-    margin: 94px 0 56px auto;
+    margin-top: 90px;
   }
 }
