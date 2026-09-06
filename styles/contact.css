@@ -1,0 +1,17 @@
+#contact {
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  padding-block: 128px;
+
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 400px;
+    margin-top: 48px;
+    margin-inline: auto;
+  }
+}
